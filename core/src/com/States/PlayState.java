@@ -62,7 +62,7 @@ public class PlayState extends State {
                 tube.repozition(tube.getPosTopTube().x + ((tube.TUBE_WIDTH + TUBE_SPACING) * TUBE_COUNT));
             }
             if(tube.collides(bird.getBounds())){
-                slap.play(0.8f);
+                slap.play(0.4f);
                 gsm.set(new PlayState(gsm));
             }
         }
