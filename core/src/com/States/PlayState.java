@@ -68,7 +68,7 @@ public class PlayState extends State {
         }
 
         if(bird.getPosition().y <= ground.getHeight() + GROUND_Y_OFFSET){
-            slap.play(0.8f);
+            slap.play(0.4f);
             gsm.set(new PlayState(gsm));
         }
 
